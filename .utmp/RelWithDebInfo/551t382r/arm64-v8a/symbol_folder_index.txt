@@ -1,0 +1,1 @@
+C:\Users\21256622-5\Documents\estacion-soldadura-vr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\551t382r\obj\arm64-v8a

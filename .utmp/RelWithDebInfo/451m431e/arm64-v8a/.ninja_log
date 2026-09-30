@@ -1,0 +1,19 @@
+# ninja log v5
+57	3755	8124751535512912	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	45a1ee971069adbf
+295	3867	8124751536088249	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c3cd40193ca14e27
+203	4391	8124751541897265	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c655b590ee874c0b
+31	3914	8124751536088249	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	59c8df35a2cf8bc8
+169	4128	8124751538028379	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ebc89d4b400c05b2
+347	3944	8124751536797359	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fa382dbd55c431c3
+83	4450	8124751542584209	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3cb3cca148559dde
+1	4704	8124751545128263	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	3099cc3079bf457a
+4704	5099	8124751549108131	C:/Users/21256622-5/Documents/estacion-soldadura-vr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/451m431e/obj/arm64-v8a/libgame.so	7c96f7b9b8351c4a
+83	2206	8124768231166250	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c3cd40193ca14e27
+105	2218	8124768231211824	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	45a1ee971069adbf
+35	2257	8124768231693787	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	59c8df35a2cf8bc8
+182	2261	8124768231718944	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fa382dbd55c431c3
+62	2338	8124768232462585	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ebc89d4b400c05b2
+153	2524	8124768234342581	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c655b590ee874c0b
+127	2558	8124768234706290	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3cb3cca148559dde
+12	2678	8124768235879259	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	3099cc3079bf457a
+2678	2950	8124768238641254	C:/Users/21256622-5/Documents/estacion-soldadura-vr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/451m431e/obj/arm64-v8a/libgame.so	7c96f7b9b8351c4a
