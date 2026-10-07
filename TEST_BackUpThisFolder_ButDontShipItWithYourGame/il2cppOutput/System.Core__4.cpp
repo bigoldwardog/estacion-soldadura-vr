@@ -222,7 +222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeoutTracker_get_RemainingMilliseco
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90815
+// Method Definition Index: 84445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeoutTracker__ctor_mBFE73B99C5BBB93D251DF9731B9C5D824F30CDCE (TimeoutTracker_tF7165D38C7B863F71E6B60DF267C8DDE0D76299C* __this, int32_t ___0_millisecondsTimeout, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -269,7 +269,7 @@ IL_0033:
 		return;
 	}
 }
-// Method Definition Index: 90816
+// Method Definition Index: 84446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeoutTracker_get_RemainingMilliseconds_mDAA8A0E545F8E28D3688095CA346B0A04337BC23 (TimeoutTracker_tF7165D38C7B863F71E6B60DF267C8DDE0D76299C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -328,7 +328,7 @@ IL_0034:
 		return ((int32_t)il2cpp_codegen_subtract(L_8, L_9));
 	}
 }
-// Method Definition Index: 90817
+// Method Definition Index: 84447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeoutTracker_get_IsExpired_m5E08DCC01117EF66ADEBA5472B27833577289813 (TimeoutTracker_tF7165D38C7B863F71E6B60DF267C8DDE0D76299C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

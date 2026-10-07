@@ -2393,7 +2393,7 @@ extern void ReaderWriterLockSlim_get_WaitingWriteCount_m8FE677BDB0E776125691C0A4
 extern void TimeoutTracker__ctor_mBFE73B99C5BBB93D251DF9731B9C5D824F30CDCE (void);
 extern void TimeoutTracker_get_RemainingMilliseconds_mDAA8A0E545F8E28D3688095CA346B0A04337BC23 (void);
 extern void TimeoutTracker_get_IsExpired_m5E08DCC01117EF66ADEBA5472B27833577289813 (void);
-static Il2CppMethodPointer s_methodPointers[2972] = 
+static Il2CppMethodPointer s_methodPointers[2970] = 
 {
 	SR_GetString_m2213C501E26D6A1AE8D0644E9685AF8A4204CA7F,
 	SR_Format_m7198B645F5C0A5E33F30AEF003C1F1D1415A9F86,
@@ -2545,8 +2545,6 @@ static Il2CppMethodPointer s_methodPointers[2972] =
 	Enumerable_Min_m782D1182232A1D5E5C01BE673628CC7272923D1B,
 	Enumerable_Max_m3215FA2A65ACAFE226A0FBE065D772C7CE1A5E9F,
 	Enumerable_Average_m2DBF0BBC0642716C2296C5C3CC9AFF18F574C368,
-	NULL,
-	NULL,
 	NULL,
 	NULL,
 	NULL,
@@ -5374,16 +5372,16 @@ extern void LocalDefinition_Equals_mB4B6A7A6A87ABBDC60769E2E9D380DDFD7EBD5CE_Adj
 extern void LocalDefinition_GetHashCode_mE4BD88BAF8229E1D802F7B76F7B9CA57EDC7292D_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x0600054A, RuntimeLabel_ToString_mE968C558DEA884F9D28FF11BF862C340C77E4DD6_AdjustorThunk },
-	{ 0x060007DC, InterpretedFrameInfo_ToString_m7549ABE7B3E50C956A736BECC8A2F541CE09B5ED_AdjustorThunk },
-	{ 0x0600090D, LocalDefinition_Equals_mB4B6A7A6A87ABBDC60769E2E9D380DDFD7EBD5CE_AdjustorThunk },
-	{ 0x0600090E, LocalDefinition_GetHashCode_mE4BD88BAF8229E1D802F7B76F7B9CA57EDC7292D_AdjustorThunk },
+	{ 0x06000548, RuntimeLabel_ToString_mE968C558DEA884F9D28FF11BF862C340C77E4DD6_AdjustorThunk },
+	{ 0x060007DA, InterpretedFrameInfo_ToString_m7549ABE7B3E50C956A736BECC8A2F541CE09B5ED_AdjustorThunk },
+	{ 0x0600090B, LocalDefinition_Equals_mB4B6A7A6A87ABBDC60769E2E9D380DDFD7EBD5CE_AdjustorThunk },
+	{ 0x0600090C, LocalDefinition_GetHashCode_mE4BD88BAF8229E1D802F7B76F7B9CA57EDC7292D_AdjustorThunk },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Core_CodeGenModule;
 const Il2CppCodeGenModule g_System_Core_CodeGenModule = 
 {
 	"System.Core.dll",
-	2972,
+	2970,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,
