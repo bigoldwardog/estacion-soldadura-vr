@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 158053793}
   - component: {fileID: 158053792}
   m_Layer: 0
-  m_Name: Grabable_Pistola
+  m_Name: WeldingToolGrabRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2656,7 +2656,7 @@ GameObject:
   - component: {fileID: 362163148}
   - component: {fileID: 362163147}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: WorkbenchLeg02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3672,7 +3672,7 @@ GameObject:
   - component: {fileID: 525032544}
   - component: {fileID: 525032543}
   m_Layer: 0
-  m_Name: Placa
+  m_Name: Workpiece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4908,7 +4908,7 @@ GameObject:
   - component: {fileID: 733653612}
   - component: {fileID: 733653611}
   m_Layer: 0
-  m_Name: Pistola
+  m_Name: WeldingTool
   m_TagString: WeldingTool
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5395,7 +5395,7 @@ GameObject:
   - component: {fileID: 804315687}
   - component: {fileID: 804315690}
   m_Layer: 0
-  m_Name: Welding_Zone
+  m_Name: WeldZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6133,7 +6133,7 @@ GameObject:
   - component: {fileID: 917356760}
   - component: {fileID: 917356759}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: WorkbenchLeg03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8296,7 +8296,7 @@ GameObject:
   - component: {fileID: 1298242866}
   - component: {fileID: 1298242867}
   m_Layer: 0
-  m_Name: Grabable_Placa
+  m_Name: WorkpieceGrabRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8478,7 +8478,7 @@ GameObject:
   - component: {fileID: 1321273871}
   - component: {fileID: 1321273870}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: WorkbenchLeg01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8977,7 +8977,7 @@ GameObject:
   - component: {fileID: 1397545302}
   - component: {fileID: 1397545301}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12895,7 +12895,7 @@ GameObject:
   - component: {fileID: 1948574079}
   - component: {fileID: 1948574078}
   m_Layer: 0
-  m_Name: "Estaci\xF3n"
+  m_Name: WorkbenchTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13294,7 +13294,7 @@ GameObject:
   - component: {fileID: 2003989895}
   - component: {fileID: 2003989894}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: WorkbenchLeg04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

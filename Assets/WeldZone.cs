@@ -15,18 +15,18 @@ public class WeldZone : MonoBehaviour
     private bool isWelded = false;
 
     private Renderer zoneRenderer;
-    private TMP_Text weldingText;
+    private TMP_Text weldingStatusText;
 
     private void Start()
     {
         zoneRenderer = GetComponent<Renderer>();
 
-        // Buscar automáticamente el TextMeshPro llamado "TextMeshPro"
-        GameObject textObject = GameObject.Find("Text (TMP)");
+        // Buscar el texto de estado de la estación por el nombre del objeto.
+        GameObject textObject = GameObject.Find("WeldingStatusText");
 
         if (textObject != null)
         {
-            weldingText = textObject.GetComponent<TMP_Text>();
+            weldingStatusText = textObject.GetComponent<TMP_Text>();
         }
 
         if (zoneRenderer != null)
@@ -34,9 +34,9 @@ public class WeldZone : MonoBehaviour
             zoneRenderer.material.color = idleColor;
         }
 
-        if (weldingText != null)
+        if (weldingStatusText != null)
         {
-            weldingText.text = "LISTO PARA SOLDAR";
+            weldingStatusText.text = "LISTO PARA SOLDAR";
         }
         else
         {
@@ -55,9 +55,9 @@ public class WeldZone : MonoBehaviour
 
             zoneRenderer.material.color = weldingColor;
 
-            if (weldingText != null)
+            if (weldingStatusText != null)
             {
-                weldingText.text = "SOLDADURA EN PROGRESO\n0 / 5";
+                weldingStatusText.text = "SOLDADURA EN PROGRESO\n0 / 5";
             }
         }
     }
@@ -74,9 +74,9 @@ public class WeldZone : MonoBehaviour
             int progress = Mathf.FloorToInt(currentWeldTime);
             progress = Mathf.Clamp(progress, 0, 5);
 
-            if (weldingText != null)
+            if (weldingStatusText != null)
             {
-                weldingText.text =
+                weldingStatusText.text =
                     "SOLDADURA EN PROGRESO\n" +
                     progress +
                     " / 5";
@@ -100,9 +100,9 @@ public class WeldZone : MonoBehaviour
 
             zoneRenderer.material.color = idleColor;
 
-            if (weldingText != null)
+            if (weldingStatusText != null)
             {
-                weldingText.text = "LISTO PARA SOLDAR";
+                weldingStatusText.text = "LISTO PARA SOLDAR";
             }
         }
     }
@@ -131,9 +131,9 @@ public class WeldZone : MonoBehaviour
 
         zoneRenderer.material.color = weldedColor;
 
-        if (weldingText != null)
+        if (weldingStatusText != null)
         {
-            weldingText.text = "SOLDADURA COMPLETADA";
+            weldingStatusText.text = "SOLDADURA COMPLETADA";
         }
     }
 }
